@@ -26,13 +26,10 @@ function getQuote(){
             characterImage.src = "images/gustavo.jpg"
         } else if (character.innerHTML == 'Badger') {
             characterImage.src = "images/badger.jpg"
-        } else if (character.innerHTML == 'The fly') {
-            characterImage.src = "images/fly.jpg"
+        } else if (character.innerHTML == 'The Fly') {
+            characterImage.src = "images/fly.png"
         }
-        
-
     })
-
 }
 
 getQuote();
